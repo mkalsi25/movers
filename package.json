@@ -1,0 +1,16 @@
+{
+  "name": "desktop",
+  "version": "1.0.0",
+  "description": "Optimized bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "purgecss --css assets/bootstrap/css/bootstrap.min.css --content index.html --output optimized/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "purgecss": "^3.0.0"
+  },
+  "dependencies": {}
+}
